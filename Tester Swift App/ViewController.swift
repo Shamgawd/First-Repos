@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         
         pressCount = pressCount + 1
         
-        if pressCount >= 10 {
-            theLabel.text = "You pressed the button 10 times!"
+        if pressCount >= 20 {
+            theLabel.text = "You pressed the button 20 times!"
         }
     }
     
